@@ -62,7 +62,10 @@ button { font: inherit; }
 .board-label small, .meeting-info small { display:block; color:var(--muted); text-transform:uppercase; letter-spacing:.12em; font-size:.62rem; }
 .board-label strong, .meeting-info strong { display:block; color:var(--gold-light); font-family:"Playfair Display",serif; font-size:1.1rem; }
 @keyframes boardFloat { 0%,100% { transform:perspective(1000px) rotateX(5deg) rotateZ(-1deg) translateY(0); } 50% { transform:perspective(1000px) rotateX(5deg) rotateZ(-1deg) translateY(-8px); } }
-
+#header-contact-btn:hover {
+    margin-bottom: 7px;
+    border-width: 1.5px;
+}
 .meeting-bar { padding:22px 0; background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
 .meeting-inner { display:flex; align-items:center; justify-content:space-between; gap:25px; }
 .meeting-info { display:flex; align-items:center; gap:15px; }
