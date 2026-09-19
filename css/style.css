@@ -64,13 +64,17 @@ button { font: inherit; }
 @keyframes boardFloat { 0%,100% { transform:perspective(1000px) rotateX(5deg) rotateZ(-1deg) translateY(0); } 50% { transform:perspective(1000px) rotateX(5deg) rotateZ(-1deg) translateY(-8px); } }
 #header-contact-btn:hover {
     margin-bottom: 7px;
-    border-width: 1.5px;
+    border-color: gold;
 }
 .meeting-bar { padding:22px 0; background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
 .meeting-inner { display:flex; align-items:center; justify-content:space-between; gap:25px; }
 .meeting-info { display:flex; align-items:center; gap:15px; }
 .meeting-icon { width:43px; height:43px; display:grid; place-items:center; border:1px solid rgba(201,168,106,.35); color:var(--gold); }
-.countdown { display:flex; gap:25px; text-align:center; }
+.countdown {
+    display:flex; 
+    gap:25px; 
+    text-align:center;
+}
 .countdown strong { display:block; color:var(--gold-light); font-family:"Playfair Display",serif; font-size:1.3rem; }
 .countdown span { display:block; color:var(--muted); text-transform:uppercase; letter-spacing:.08em; font-size:.58rem; }
 
